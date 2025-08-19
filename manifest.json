@@ -1,0 +1,6 @@
+{
+  "language": "python",
+  "runner": "python3 -m getgauge.python.runner",
+  "specsDir": "specs",
+  "stepImplementations": "step_impl"
+}

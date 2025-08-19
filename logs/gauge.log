@@ -1,0 +1,170 @@
+19-08-2025 19:01:18.488 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\Eugen\Desktop\TestTaskMeneger\.gauge\screenshots
+19-08-2025 19:01:18.490 [Gauge] [DEBUG] Plugin python is already installed.
+19-08-2025 19:01:18.490 [Gauge] [INFO] Installing required plugins.
+19-08-2025 19:01:18.490 [Gauge] [DEBUG] Installing plugin 'html-report'
+19-08-2025 19:01:18.490 [Gauge] [DEBUG] Gathering metadata for html-report
+19-08-2025 19:01:18.491 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=python&o=windows&a=amd64
+19-08-2025 19:01:18.852 [Gauge] [DEBUG] Downloading https://github.com/getgauge/html-report/releases/download/v4.3.3/html-report-4.3.3-windows.x86_64.zip
+19-08-2025 19:01:19.241 [Gauge] [DEBUG] Checking updates...
+19-08-2025 19:01:19.242 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=python&o=windows&a=amd64
+19-08-2025 19:01:26.165 [Gauge] [DEBUG] Installing plugin html-report 4.3.3
+19-08-2025 19:01:26.226 [Gauge] [INFO] Successfully installed plugin 'html-report' version 4.3.3
+19-08-2025 19:01:26.226 [Gauge] [DEBUG] Installing plugin 'screenshot'
+19-08-2025 19:01:26.226 [Gauge] [DEBUG] Gathering metadata for screenshot
+19-08-2025 19:01:26.226 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python&o=windows&a=amd64
+19-08-2025 19:01:26.280 [Gauge] [DEBUG] Downloading https://github.com/getgauge/gauge_screenshot/releases/download/v0.3.2/screenshot-0.3.2-windows.x86_64.zip
+19-08-2025 19:01:27.259 [Gauge] [DEBUG] Installing plugin screenshot 0.3.2
+19-08-2025 19:01:27.264 [Gauge] [INFO] Successfully installed plugin 'screenshot' version 0.3.2
+19-08-2025 19:01:27.264 [Gauge] [DEBUG] Parsing started.
+19-08-2025 19:01:27.264 [Gauge] [DEBUG] Started concepts parsing.
+19-08-2025 19:01:27.265 [Gauge] [DEBUG] 0 concepts parsing completed.
+19-08-2025 19:01:27.265 [Gauge] [DEBUG] Started specifications parsing.
+19-08-2025 19:01:27.265 [Gauge] [DEBUG] 1 specifications parsing completed.
+19-08-2025 19:01:27.265 [Gauge] [DEBUG] Parsing completed.
+19-08-2025 19:01:29.079 [python] [INFO] Python: 3.13.5
+19-08-2025 19:01:29.079 [python] [DEBUG] Loading step implementations from C:\Users\Eugen\Desktop\TestTaskMeneger\step_impl dirs.
+19-08-2025 19:01:29.094 [python] [DEBUG] Starting grpc server..
+19-08-2025 19:01:29.097 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53953
+19-08-2025 19:01:29.097 [Gauge] [DEBUG] Successfully made the connection with runner with port: 53953
+19-08-2025 19:01:29.097 [Gauge] [DEBUG] Validation started.
+19-08-2025 19:01:29.109 [Gauge] [DEBUG] Validation completed.
+19-08-2025 19:01:29.109 [Gauge] [DEBUG] Run started
+19-08-2025 19:01:29.109 [Gauge] [DEBUG] Initialising suite data store.
+19-08-2025 19:01:29.189 [Gauge] [INFO] # Тесты для Task Manager
+19-08-2025 19:01:29.191 [Gauge] [INFO] ## CRUD операции
+19-08-2025 19:01:29.192 [Gauge] [DEBUG] * Создать задачу
+19-08-2025 19:01:29.206 [Gauge] [DEBUG] * Получить задачу по ID
+19-08-2025 19:01:29.311 [Gauge] [ERROR] Failed Step: Получить задачу по ID
+19-08-2025 19:01:29.311 [Gauge] [ERROR] Error Message: Exception occurred
+19-08-2025 19:01:29.311 [Gauge] [ERROR] Specification: specs\tasks.spec:6
+19-08-2025 19:01:29.311 [Gauge] [ERROR] Stacktrace: 
+Traceback (most recent call last):
+  File "c:\Users\Eugen\Desktop\TestTaskMeneger\.venv\Lib\site-packages\getgauge\executor.py", line 35, in execute_method
+    step.impl(*params)
+    ~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Eugen\Desktop\TestTaskMeneger\step_impl\tasks.py", line 17, in get_task_by_id
+    assert resp.status_code == 200
+           ^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+19-08-2025 19:01:29.313 [python] [DEBUG] KillProcessrequest received
+19-08-2025 19:01:29.313 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+19-08-2025 19:01:29.313 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19-08-2025 19:01:29.313 [Gauge] [INFO] 
+Total time taken: 203ms
+19-08-2025 19:03:28.584 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\Eugen\Desktop\TestTaskMeneger\.gauge\screenshots
+19-08-2025 19:03:28.584 [Gauge] [DEBUG] Plugin python is already installed.
+19-08-2025 19:03:28.585 [Gauge] [DEBUG] Parsing started.
+19-08-2025 19:03:28.585 [Gauge] [DEBUG] Started concepts parsing.
+19-08-2025 19:03:28.586 [Gauge] [DEBUG] 0 concepts parsing completed.
+19-08-2025 19:03:28.586 [Gauge] [DEBUG] Started specifications parsing.
+19-08-2025 19:03:28.586 [Gauge] [DEBUG] 1 specifications parsing completed.
+19-08-2025 19:03:28.586 [Gauge] [DEBUG] Parsing completed.
+19-08-2025 19:03:29.042 [python] [INFO] Python: 3.13.5
+19-08-2025 19:03:29.042 [python] [DEBUG] Loading step implementations from C:\Users\Eugen\Desktop\TestTaskMeneger\step_impl dirs.
+19-08-2025 19:03:29.059 [python] [DEBUG] Starting grpc server..
+19-08-2025 19:03:29.061 [Gauge] [DEBUG] Checking updates...
+19-08-2025 19:03:29.062 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot&o=windows&a=amd64
+19-08-2025 19:03:29.064 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54045
+19-08-2025 19:03:29.064 [Gauge] [DEBUG] Successfully made the connection with runner with port: 54045
+19-08-2025 19:03:29.064 [Gauge] [DEBUG] Validation started.
+19-08-2025 19:03:29.073 [Gauge] [DEBUG] Validation completed.
+19-08-2025 19:03:29.073 [Gauge] [DEBUG] Run started
+19-08-2025 19:03:29.074 [Gauge] [DEBUG] Initialising suite data store.
+19-08-2025 19:03:29.154 [Gauge] [INFO] # Тесты для Task Manager
+19-08-2025 19:03:29.155 [Gauge] [INFO] ## CRUD операции
+19-08-2025 19:03:29.156 [Gauge] [DEBUG] * Создать задачу
+19-08-2025 19:03:29.167 [python] [INFO] POST /tasks -> 200, {"id":"b22ec5f8-7617-4fcc-9376-f1a36079e5c6","title":"Test Task","description":"Demo","status":"created"}
+19-08-2025 19:03:29.167 [python] [INFO] ������� ������ � ID: b22ec5f8-7617-4fcc-9376-f1a36079e5c6
+19-08-2025 19:03:29.168 [Gauge] [DEBUG] * Получить задачу по ID
+19-08-2025 19:03:29.173 [python] [INFO] GET /tasks/b22ec5f8-7617-4fcc-9376-f1a36079e5c6 -> 404, {"detail":"Task not found"}
+19-08-2025 19:03:29.243 [Gauge] [ERROR] Failed Step: Получить задачу по ID
+19-08-2025 19:03:29.243 [Gauge] [ERROR] Error Message: Failed to get task: 404
+19-08-2025 19:03:29.243 [Gauge] [ERROR] Specification: specs\tasks.spec:6
+19-08-2025 19:03:29.243 [Gauge] [ERROR] Stacktrace: 
+Traceback (most recent call last):
+  File "c:\Users\Eugen\Desktop\TestTaskMeneger\.venv\Lib\site-packages\getgauge\executor.py", line 35, in execute_method
+    step.impl(*params)
+    ~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Eugen\Desktop\TestTaskMeneger\step_impl\tasks.py", line 21, in get_task_by_id
+    assert resp.status_code == 200, f"Failed to get task: {resp.status_code}"
+           ^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Failed to get task: 404
+19-08-2025 19:03:29.245 [python] [DEBUG] KillProcessrequest received
+19-08-2025 19:03:29.245 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+19-08-2025 19:03:29.245 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19-08-2025 19:03:29.245 [Gauge] [INFO] 
+Total time taken: 170ms
+19-08-2025 19:06:43.543 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\Eugen\Desktop\TestTaskMeneger\.gauge\screenshots
+19-08-2025 19:06:43.544 [Gauge] [DEBUG] Plugin python is already installed.
+19-08-2025 19:06:43.545 [Gauge] [DEBUG] Parsing started.
+19-08-2025 19:06:43.545 [Gauge] [DEBUG] Started concepts parsing.
+19-08-2025 19:06:43.547 [Gauge] [DEBUG] 0 concepts parsing completed.
+19-08-2025 19:06:43.547 [Gauge] [DEBUG] Started specifications parsing.
+19-08-2025 19:06:43.550 [Gauge] [DEBUG] 1 specifications parsing completed.
+19-08-2025 19:06:43.550 [Gauge] [DEBUG] Parsing completed.
+19-08-2025 19:06:44.081 [python] [INFO] Python: 3.13.5
+19-08-2025 19:06:44.081 [python] [DEBUG] Loading step implementations from C:\Users\Eugen\Desktop\TestTaskMeneger\step_impl dirs.
+19-08-2025 19:06:44.100 [python] [DEBUG] Starting grpc server..
+19-08-2025 19:06:44.116 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54127
+19-08-2025 19:06:44.119 [Gauge] [DEBUG] Successfully made the connection with runner with port: 54127
+19-08-2025 19:06:44.120 [Gauge] [DEBUG] Validation started.
+19-08-2025 19:06:44.136 [Gauge] [DEBUG] Validation completed.
+19-08-2025 19:06:44.137 [Gauge] [DEBUG] Run started
+19-08-2025 19:06:44.137 [Gauge] [DEBUG] Initialising suite data store.
+19-08-2025 19:06:44.250 [Gauge] [INFO] # Тесты для Task Manager
+19-08-2025 19:06:44.251 [Gauge] [INFO] ## CRUD операции
+19-08-2025 19:06:44.253 [Gauge] [DEBUG] * Создать задачу
+19-08-2025 19:06:44.276 [python] [INFO] POST /tasks -> 200, {"id":"09a8d529-6026-45f1-aa08-b7d4fd8767b2","title":"Test Task","description":"Demo","status":"created"}
+19-08-2025 19:06:44.276 [python] [INFO] ������� ������ � ID: 09a8d529-6026-45f1-aa08-b7d4fd8767b2
+19-08-2025 19:06:44.277 [Gauge] [DEBUG] * Получить задачу по ID
+19-08-2025 19:06:44.283 [python] [INFO] GET /tasks/09a8d529-6026-45f1-aa08-b7d4fd8767b2 -> 404, {"detail":"Task not found"}
+19-08-2025 19:06:44.360 [Gauge] [ERROR] Failed Step: Получить задачу по ID
+19-08-2025 19:06:44.360 [Gauge] [ERROR] Error Message: Failed to get task: 404
+19-08-2025 19:06:44.360 [Gauge] [ERROR] Specification: specs\tasks.spec:6
+19-08-2025 19:06:44.360 [Gauge] [ERROR] Stacktrace: 
+Traceback (most recent call last):
+  File "c:\Users\Eugen\Desktop\TestTaskMeneger\.venv\Lib\site-packages\getgauge\executor.py", line 35, in execute_method
+    step.impl(*params)
+    ~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Eugen\Desktop\TestTaskMeneger\step_impl\tasks.py", line 21, in get_task_by_id
+    assert resp.status_code == 200, f"Failed to get task: {resp.status_code}"
+           ^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Failed to get task: 404
+19-08-2025 19:06:44.362 [python] [DEBUG] KillProcessrequest received
+19-08-2025 19:06:44.362 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+19-08-2025 19:06:44.362 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19-08-2025 19:06:44.362 [Gauge] [INFO] 
+Total time taken: 224ms
+19-08-2025 19:11:38.068 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\Eugen\Desktop\TestTaskMeneger\.gauge\screenshots
+19-08-2025 19:11:38.069 [Gauge] [DEBUG] Plugin python is already installed.
+19-08-2025 19:11:38.069 [Gauge] [DEBUG] Parsing started.
+19-08-2025 19:11:38.069 [Gauge] [DEBUG] Started concepts parsing.
+19-08-2025 19:11:38.071 [Gauge] [DEBUG] 0 concepts parsing completed.
+19-08-2025 19:11:38.071 [Gauge] [DEBUG] Started specifications parsing.
+19-08-2025 19:11:38.071 [Gauge] [DEBUG] 1 specifications parsing completed.
+19-08-2025 19:11:38.071 [Gauge] [DEBUG] Parsing completed.
+19-08-2025 19:11:38.507 [python] [INFO] Python: 3.13.5
+19-08-2025 19:11:38.507 [python] [DEBUG] Loading step implementations from C:\Users\Eugen\Desktop\TestTaskMeneger\step_impl dirs.
+19-08-2025 19:11:38.525 [python] [DEBUG] Starting grpc server..
+19-08-2025 19:11:38.528 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54329
+19-08-2025 19:11:38.528 [Gauge] [DEBUG] Successfully made the connection with runner with port: 54329
+19-08-2025 19:11:38.528 [Gauge] [DEBUG] Validation started.
+19-08-2025 19:11:38.532 [Gauge] [DEBUG] Validation completed.
+19-08-2025 19:11:38.532 [Gauge] [DEBUG] Run started
+19-08-2025 19:11:38.532 [Gauge] [DEBUG] Initialising suite data store.
+19-08-2025 19:11:38.611 [Gauge] [INFO] # Тесты для Task Manager
+19-08-2025 19:11:38.612 [Gauge] [INFO] ## CRUD операции
+19-08-2025 19:11:38.613 [Gauge] [DEBUG] * Создать задачу
+19-08-2025 19:11:38.623 [python] [INFO] POST /tasks -> 200, {"id":"320e4f4d-7f97-42fa-bc96-f4e556645f6d","title":"Test Task","description":"Demo","status":"created"}
+19-08-2025 19:11:38.623 [python] [INFO] ������� ������ � ID: 320e4f4d-7f97-42fa-bc96-f4e556645f6d
+19-08-2025 19:11:38.624 [Gauge] [DEBUG] * Получить задачу по ID
+19-08-2025 19:11:38.630 [python] [INFO] GET /tasks/320e4f4d-7f97-42fa-bc96-f4e556645f6d -> 200, {"id":"320e4f4d-7f97-42fa-bc96-f4e556645f6d","title":"Test Task","description":"Demo","status":"created"}
+19-08-2025 19:11:38.631 [Gauge] [DEBUG] * Обновить задачу
+19-08-2025 19:11:38.638 [python] [INFO] PUT /tasks/320e4f4d-7f97-42fa-bc96-f4e556645f6d -> 200, {"id":"320e4f4d-7f97-42fa-bc96-f4e556645f6d","title":"Test Task","description":"Demo","status":"in_progress"}
+19-08-2025 19:11:38.639 [Gauge] [DEBUG] * Удалить задачу
+19-08-2025 19:11:38.644 [python] [INFO] DELETE /tasks/320e4f4d-7f97-42fa-bc96-f4e556645f6d -> 200, {"message":"Task deleted"}
+19-08-2025 19:11:38.647 [python] [DEBUG] KillProcessrequest received
+19-08-2025 19:11:38.647 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+19-08-2025 19:11:38.647 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19-08-2025 19:11:38.647 [Gauge] [INFO] 
+Total time taken: 114ms
