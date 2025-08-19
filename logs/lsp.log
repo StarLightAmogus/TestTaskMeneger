@@ -1,0 +1,18 @@
+19-08-2025 19:19:05.832 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+19-08-2025 19:19:05.833 [Gauge] [INFO] Initializing specs cache with 1 specs
+19-08-2025 19:19:05.833 [Gauge] [DEBUG] Adding specs from c:\Users\Eugen\Desktop\TestTaskMeneger\specs\tasks.spec
+19-08-2025 19:19:05.833 [Gauge] [INFO] Initializing steps cache with 1 steps
+19-08-2025 19:19:05.834 [Gauge] [DEBUG] Watching directory: c:\Users\Eugen\Desktop\TestTaskMeneger\specs
+19-08-2025 19:19:05.834 [Gauge] [INFO] Starting language runner
+19-08-2025 19:19:05.834 [Gauge] [DEBUG] Found 1 files
+19-08-2025 19:19:05.994 [python] [ERROR] P
+19-08-2025 19:19:05.994 [python] [ERROR] ython
+19-08-2025 19:19:06.107 [python] [ERROR] P
+19-08-2025 19:19:06.107 [python] [ERROR] ython
+19-08-2025 19:19:06.115 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 9009
+19-08-2025 19:19:06.115 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-python.python' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+19-08-2025 19:19:06.115 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+19-08-2025 19:19:06.479 [Gauge] [DEBUG] notif #0: workspace/didChangeConfiguration: Updated settings.
+19-08-2025 19:19:06.525 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
